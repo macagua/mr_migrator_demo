@@ -14,7 +14,7 @@ Follow these steps::
     $ cd mr_migrator_demo
     $ python2.7 bootstrap.py -d
     $ bin/buildout
-    $ bin/plone start
+    $ bin/instance start
     $ bin/migrate
 
 You should end up with content in Plone that looks like this:
@@ -22,3 +22,4 @@ You should end up with content in Plone that looks like this:
 .. image:: https://github.com/aclark4life/mr_migrator_demo/raw/master/screenshot.png
 
 .. _`mr.migrator`: http://pypi.python.org/pypi/mr.migrator
+
